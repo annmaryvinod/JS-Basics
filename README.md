@@ -46,3 +46,14 @@ Learning basics of JS!
 
 
     >= stands for "greater than or equal to"{similar for the other}
+
+12. Logical Operators:
+         1. AND------    && ----- valid when both conditions work!    
+         2. OR-------    || ------ valid when atleast one holds true!
+
+
+13. Check the code for use of WHILE LOOP.
+        The syntax looks similar to that of IF
+
+
+14. FOR loop can put together the "var name" , "condition" , "increment" together!
