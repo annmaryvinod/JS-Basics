@@ -52,6 +52,10 @@ Learning basics of JS!
          2. OR-------    || ------ valid when atleast one holds true!
 
 
+         { 1. To write on the document ::: document.write(content)
+           2. To write on the console ::: console.log(content)}
+
+
 13. Check the code for use of WHILE LOOP.
         The syntax looks similar to that of IF
 
