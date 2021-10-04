@@ -28,7 +28,7 @@ Learning basics of JS!
  
  
 
-9. ===
+9. === :
       == deals with the value and the last one can be used to evaluate whether we are dealing with a string or a number.
 
 
@@ -45,7 +45,7 @@ Learning basics of JS!
     != stands for not equal to( also !==)
 
 
-    >= stands for "greater than or equal to"{similar for the other}
+    (>= stands for "greater than or equal to"{similar for the other})
 
 12. Logical Operators:
          1. AND------    && ----- valid when both conditions work!    
