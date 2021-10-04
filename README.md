@@ -60,4 +60,10 @@ Learning basics of JS!
         The syntax looks similar to that of IF
 
 
-14. FOR loop can put together the "var name" , "condition" , "increment" together!
+14. FOR loop can put together the "var name" , "condition" , "increment" together
+
+15. " Break" is used to break a loop at specified points!
+
+16. LOCAL and GLOBAL variable
+     * Local : coded within a function and can be called out only within that function!
+     * Global : Present outside any function and can be called out anywhere in the code!
