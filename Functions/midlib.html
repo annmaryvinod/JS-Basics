@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+ <title>Game With Words</title>
+</head>
+<body>
+    <h1> Game With Words</h1>
+    <h2>Check Console!</h2>
+    <script >
+
+        // When I call the function the "result" is returned since that is asked in the function
+
+    function mySentence(myNoun,myVerb,myAdjective,myAdverb){
+        var result = "The " + myAdjective + " " +  myNoun + " " + myVerb + " "+ myAdverb + ".";
+        // console.log(result);
+        return result;
+    }
+    // mySentence("dog" , "ran", "mad" ,"quickly");
+
+    console.log(mySentence("dog" , "ran", "mad" ,"quickly"));
+    console.log(mySentence("fish" , "swam", "golden" ,"mockingly"));
+    console.log(mySentence("child" , "fought", "naughty" ,"fiercely"));
+    console.log(mySentence("captain" , "spoke", "team" ,"confidently"));
+    console.log(mySentence("teacher" , "slept", "old" ,"peacefully"));
+
+    </script>
+</body>
+</html>
