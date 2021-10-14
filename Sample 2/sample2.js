@@ -13,3 +13,15 @@ for ( i = 1; i < links.length; i++){
 document.write("all links are now looped");
 
 // If you wanted the 6th link, then use <= instead of <
+
+
+
+
+
+
+// Use of boolean!
+
+console.log(Boolean(3<9));
+
+/* Boolean value of all numbers is true except for 0 and -0.
+   All strings show true values but empty strings show false.*/
