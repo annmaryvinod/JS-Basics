@@ -7,10 +7,32 @@ for ( i = 0; i < 10; i++) {
 
         console.log(i) ;
 }
- /*"continue" breaks the code at specified points like 3 and 5 as in here!
- It does not execute the entire code below it for 5 and 3.
- Hence 5 and 3 are not displayed in the console!*/
+// continue will not execute the code below for the condition provided
+// Here when i is 5 or 3 the code below to print in console or anything below that within the for loop do not work.
    
 
 
-console.log("I have broken out of the loop")
+console.log("I have broken out of the loop");
+
+
+
+for (i=0; i<8; i++){
+
+    if(i === 1){
+        continue;
+    }
+    console.log("I want " + i + " icecreams!");
+
+    
+}
+
+
+
+
+for(i=0 ; i < 5; i++){
+
+    if(i ===0){
+        continue;
+    }
+    console.log('All ' + i + ' idiots get lost!');
+}
