@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Nested Arrays</title>
+</head>
+
+<body>
+    <h1>Nested Arrays!</h1>
+    <h2>Check Console!</h2>
+    <script>
+        // Array 1
+        var myFirst = [["Dick", "Lamb", "Peter"], ["Fred", "George"], ["Holmes", "Watson"], ["Potter", "Granger", "Weasley"]];
+        // console.log(myFirst);
+        // console.log("This is my first array");
+        console.log("The length of 'myFirst' array is : " + myFirst.length);
+        console.log("The item at the 3rd index is : " + myFirst[3]);
+        console.log("The item at 0 index is : " + myFirst[0]);
+
+        // Array 2
+        var mySecond = [[1, 2, 3], [4, 5, 6], [[7, 8], 9, 10], [[[11, 12], 13, 14], 15], 16, 17];
+
+        // console.log(mySecond);
+        // console.log("This is my second array!");
+        console.log("I need to acess the number 3.");
+        console.log(mySecond[0][2]);
+        
+       console.log("I need to access the number 16.");
+       console.log(mySecond[4]);
+
+       console.log("I need to access the number 15.");
+       console.log(mySecond[3][1]);
+
+       console.log("I need to access the number 12 .");
+       console.log(mySecond[3][0][0][1]);
+
+       console.log("I need to access the number 11.");
+       console.log(mySecond[3][0][0][0])
+
+
+
+    </script>
+</body>
+
+</html>
