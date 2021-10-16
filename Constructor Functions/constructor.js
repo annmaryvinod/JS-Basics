@@ -102,6 +102,59 @@ console.log(myFutureDate);
 
 // Some Methods of the Date object
 
+var birthday = new Date(1985,0,15,11,15,25);
+
+// get the month of the date (0-11)
+console.log(birthday.getMonth());
+
+// get the full year (YYYY)
+console.log(birthday.getFullYear());
+
+// get the date(0-31)
+console.log(birthday.getDate());
+
+
+// get the day of the week (0-6)
+console.log(birthday.getDay());
+
+// get the hour of the day (0-23)
+console.log(birthday.getHours());
+
+// get the number of milliseconds since 1st Jan 1970
+console.log(birthday.getTime());
+
+
+
+
+
+// Why or when do we use the "getTime" method
+// We it to compare time
+
+
+// some caomparisons : let us define a new birthday2 object with same values
+
+var birthday2 = new Date(1985,0,15,11,15,25);
+
+// Case 1: When we compare objects
+
+if (birthday == birthday2){
+    console.log("Birthdays are equal!");
+} else{
+    console.log("Birthdays are not equal!");
+}
+
+// We got here unequal because we compared the two different objects
+
+
+// Case 2 : When we compare with the method "getTime"
+
+if (birthday2.getTime == birthday.getTime){
+    console.log("Birthdays are equal!");
+} else{
+    console.log("Birthdays are not equal!");
+}
+
+// Now we get them equal!
 
 
 
