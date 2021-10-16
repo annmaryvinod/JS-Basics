@@ -72,6 +72,44 @@ samosa.weight(9,4);
 
 
 
+// The Date object in JS
+
+
+//  1. Current Date:
+
+var myDate = new Date();
+console.log(myDate);
+
+
+
+//   syntax in bracket : year,month,date,hour,min,sec
+// month is from 0 t 11 not 0 to 12.
+
+
+// 2. Past Date :
+var myPastDate = new Date(2020,11,3);
+console.log(myPastDate);
+
+// 3. Future Date
+
+var myFutureDate = new Date(2096,0,4,5,34,59);
+console.log(myFutureDate);
+
+
+
+
+// -------------------------------------------------------------------------------------------------------------------------------
+
+// Some Methods of the Date object
+
+
+
+
+
+
+
+
+
 
 
 
