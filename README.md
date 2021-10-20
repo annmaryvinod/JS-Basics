@@ -71,3 +71,8 @@ Learning basics of JS!
      
 17. Checkout use of JS timers
 
+18. Check out :'
+   * teranary operators
+   * Object.freeze
+   * const and let
+
