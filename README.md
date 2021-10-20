@@ -67,3 +67,7 @@ Learning basics of JS!
 16. LOCAL and GLOBAL variable
      * Local : coded within a function and can be called out only within that function!
      * Global : Present outside any function and can be called out anywhere in the code!
+
+     
+17. Checkout use of JS timers
+
