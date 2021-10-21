@@ -76,3 +76,15 @@ Learning basics of JS!
    * Object.freeze
    * const and let
 
+
+
+
+19. JS Timers :
+
+  * " setTimeout(function, milliseconds) "   : Executes a function, after waiting a specified number of milliseconds.
+
+  * " setInterval(function, milliseconds) "   : Same as setTimeout(), but repeats the execution of the function continuously.
+
+
+  * The setTimeout() and setInterval() are both methods of the HTML DOM Window object. Hence the syntax is " window.setTimeout(function, milliseconds); ".
+
