@@ -72,7 +72,7 @@ Learning basics of JS!
 17. Checkout use of JS timers
 
 18. Check out :'
-   * teranary operators
+   * ternary operators
    * Object.freeze
    * const and let
 
@@ -87,4 +87,20 @@ Learning basics of JS!
 
 
   * The setTimeout() and setInterval() are both methods of the HTML DOM Window object. Hence the syntax is " window.setTimeout(function, milliseconds); ".
+
+
+20. Ternary Operator:
+
+* It is used instead of "if".
+
+* Syntax : " 'condition' '?' 'expression to execute if the condition is truthy'  ':'  'expression to execute if the condition is falsy' "
+
+
+
+21. Object.freeze()
+
+* The Object.freeze() method freezes an object. A frozen object can no longer be changed; freezing an object prevents new properties from being added to it, existing properties from being removed, prevents changing the enumerability, configurability, or writability of existing properties, and prevents the values of existing properties from being changed. In addition, freezing an object also prevents its prototype from being changed. freeze() returns the same object that was passed in.
+
+
+* Syntax : "Object.freeze(objectname);"
 
