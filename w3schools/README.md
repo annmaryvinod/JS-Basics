@@ -23,3 +23,11 @@
  * Variables defined with let cannot be Redeclared.
  * Variables defined with let have Block Scope.
 
+
+
+4. Block Scope
+
+ * Variables declared inside a { } block cannot be accessed from outside the block
+
+
+
