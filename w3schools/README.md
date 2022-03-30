@@ -21,4 +21,5 @@
 3. JavaScript Let : 
 
  * Variables defined with let cannot be Redeclared.
+ * Variables defined with let have Block Scope.
 
