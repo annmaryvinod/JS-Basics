@@ -35,7 +35,14 @@
 * Redeclaring a variable using the var keyword can impose problems.
 * Redeclaring a variable inside a block will also redeclare the variable outside the block.
 * Redeclaring a variable using the let keyword can solve this problem.
-* 
+* Redeclaring a variable inside a block will not redeclare the variable outside the block.
+
+
+6. Const :
+
+* Has block scope
+
+
 
 
 
