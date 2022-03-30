@@ -4,3 +4,15 @@
  * Writing into the HTML output using document.write().
  * Writing into an alert box, using window.alert().
  * Writing into the browser console, using console.log().
+
+
+2. JavaScript Values :
+
+* The JavaScript syntax defines two types of values:
+
+   1. Fixed values
+   2. Variable values
+
+* Fixed values are called Literals.
+
+* Variable values are called Variables.
