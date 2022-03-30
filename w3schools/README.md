@@ -16,3 +16,9 @@
 * Fixed values are called Literals.
 
 * Variable values are called Variables.
+
+
+3. JavaScript Let : 
+
+ * Variables defined with let cannot be Redeclared.
+
