@@ -53,6 +53,7 @@
 
     x = new String(); .....etc.
 
+8. Comparing two JavaScript objects always returns false.
 
 
 
