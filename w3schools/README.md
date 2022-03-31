@@ -43,6 +43,17 @@
 * Has block scope
 
 
+7. new in js:
+
+ * When a JavaScript variable is declared with the keyword "new", the variable is created as an object.
+ * Avoid String, Number, and Boolean objects. They complicate your code and slow down execution speed.
+ * eg : 
+    
+    don't go for 
+
+    x = new String(); .....etc.
+
+
 
 
 
